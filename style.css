@@ -7,9 +7,9 @@
     text-decoration: none;
 }
 body {
-    background: #2980B9;
-    background: -webkit-linear-gradient(to left #3fb9e6, #2caad8, #2980B9);
-    background: linear-gradient(to left, #45b4dd, #2cb0e0, #2980B9);     
+    background: #C33764; 
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764); 
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;
@@ -65,13 +65,14 @@ header .titulo {
     text-shadow: .2rem .2rem 1px rgba(0, 0, 0, .4);
     font-weight: 400;
     margin: 2rem;
-    color: #eee;
+    color: rgb(255, 241, 241);
 }
 .menu-header li a {
+    font-weight: 200;
     transition: .25s ease-in-out;
 }
 .menu-header:hover  a { 
-    color: #074a77;
+    color: rgb(243, 217, 217);
 }
 
 .sessao-projetos {
@@ -122,7 +123,7 @@ header .titulo {
   .card-info h3 {
     font-family: var(--font-action);
     font-weight: bolder;
-    color: #0292f1;
+    color: #ff0051;
     margin-bottom: 1.5rem;
   }
   
@@ -134,7 +135,7 @@ header .titulo {
     margin-bottom: 2rem;
   }
 .btn {
-    background-color: #0292f1;
+    background-color: #1D2671;
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
