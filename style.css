@@ -7,9 +7,9 @@
     text-decoration: none;
 }
 body {
-    background: #12c2e9;
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); 
+    background: #2980B9;
+    background: -webkit-linear-gradient(to left #6DD5FA, #6DD5FA, #2980B9);
+    background: linear-gradient(to left, #6DD5FA, #6DD5FA, #2980B9);     
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;
@@ -114,7 +114,7 @@ header .titulo {
   .card-info h3 {
     font-family: var(--font-action);
     font-weight: bolder;
-    color: #ff4081;
+    color: #0292f1;
     margin-bottom: 1.5rem;
   }
   
@@ -126,9 +126,7 @@ header .titulo {
     margin-bottom: 2rem;
   }
 .btn {
-    background: #12c2e9;
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed );
-    background: linear-gradient(to left, #f64f59, #c471ed); 
+    background-color: #0292f1;
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
@@ -150,7 +148,7 @@ header .titulo {
     grid-area: footer;
     width: 100%;
     height: 7rem;
-    background-color: #17181b;
+    background-color: #1f202475;
     display: flex;
     justify-content: center;
     align-items: center;
