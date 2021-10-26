@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Langar
-- Font Author: Copyright 2016 The Langar Project Authors (https://github.com/typeland/Langar)
-- Font Source: http://fonts.gstatic.com/s/langar/v15/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf
+- Font Title: Imbue
+- Font Author: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
+- Font Source: http://fonts.gstatic.com/s/imbue/v9/RLpXK5P16Ki3fXhj5cvGrqjocPk4n-gVX3M93TnrnvhoP8iXfOsNNK-Q4xY.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
