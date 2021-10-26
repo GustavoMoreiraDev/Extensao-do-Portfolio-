@@ -7,9 +7,9 @@
     text-decoration: none;
 }
 body {
-    background: #0F2027;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); 
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;
@@ -30,14 +30,10 @@ body {
   }
 header { 
       grid-area: header;
-      background: #0575E6;
-      background: #093028; 
-      background: -webkit-linear-gradient(to right, #237A57, #093028); 
-      background: linear-gradient(to right, #237A57, #093028);
       position: relative;
       color: #eee;
       width: 100%;
-      height: 35vh;
+      height: 45vh;
 }
 section {
     grid-area: section;
@@ -47,8 +43,8 @@ section {
 }
 header .titulo {
     font-family: var(--fonte-primária);
-    font-size: 2rem;
-    top: .5rem;
+    font-size: 2.5rem;
+    top:.5rem;
     cursor: default;
     display: flex;
     position: relative;
@@ -64,7 +60,7 @@ header .titulo {
 .menu-header  .menu { 
     font-family: var(--fonte-secundaria);
     outline: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin: 2rem;
     color: #eee;
@@ -130,9 +126,9 @@ header .titulo {
     margin-bottom: 2rem;
   }
 .btn {
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed );
+    background: linear-gradient(to left, #f64f59, #c471ed); 
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
@@ -180,19 +176,3 @@ header .titulo {
   display: flex;
   list-style: none;
 }
-  #link-topo {
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
-    color: #fff;
-    border-radius: .3rem;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    position: fixed;
-      left: 2rem;
-      bottom: 2rem;
-      width: 3rem;
-      height: 3rem;
-      box-shadow: 0 0.1rem 0.6rem #00000009;
-  }
