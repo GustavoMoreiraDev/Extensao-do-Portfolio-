@@ -8,8 +8,8 @@
 }
 body {
     background: #2980B9;
-    background: -webkit-linear-gradient(to left #6DD5FA, #6DD5FA, #2980B9);
-    background: linear-gradient(to left, #6DD5FA, #6DD5FA, #2980B9);     
+    background: -webkit-linear-gradient(to left #3fb9e6, #2caad8, #2980B9);
+    background: linear-gradient(to left, #45b4dd, #2cb0e0, #2980B9);     
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;
@@ -45,6 +45,7 @@ header .titulo {
     font-family: var(--fonte-primária);
     font-size: 2.5rem;
     top:.5rem;
+    text-shadow: .5rem .2rem 1px rgba(0, 0, 0, .4);
     cursor: default;
     display: flex;
     position: relative;
@@ -58,12 +59,19 @@ header .titulo {
     display: inline;
 }
 .menu-header  .menu { 
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primária);
     outline: none;
     font-size: 2.5rem;
+    text-shadow: .2rem .2rem 1px rgba(0, 0, 0, .4);
     font-weight: 400;
     margin: 2rem;
     color: #eee;
+}
+.menu-header li a {
+    transition: .25s ease-in-out;
+}
+.menu-header:hover  a { 
+    color: #074a77;
 }
 
 .sessao-projetos {
