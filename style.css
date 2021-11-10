@@ -7,6 +7,7 @@
     box-shadow: 0;
     text-decoration: none;
     cursor: default;
+    color: #eee;
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;
@@ -69,20 +70,14 @@ section {
     display: inline;
 }
 .menu-header  .menu { 
-    font-family: var(--fonte-primária);
     outline: none;
-    font-size: 2.5rem;
-    text-shadow: .2rem .2rem 1px rgba(0, 0, 0, .4);
-    font-weight: 400;
     margin: 2rem;
-    color: rgb(255, 241, 241);
 }
 .menu-header li a {
+    font-family: var(--font-secundary);
     font-weight: 200;
     transition: .25s ease-in-out;
-}
-.menu-header:hover  a { 
-    color: rgb(243, 217, 217);
+    font-size: 2.5rem;
 }
 
 .sessao-projetos {
