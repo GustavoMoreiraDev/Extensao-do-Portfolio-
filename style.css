@@ -283,12 +283,12 @@ section {
 }
 @media screen and (max-width:424px) {
     header  {
-        height: 45vh;
+        max-height: 2vh;
         top: 0;
     }
     .menu-header {
         border-radius: 20px;
-        top: 58vh;
+        top: 28vh;
         left: 45px;
         height: 15vh;
     }
@@ -300,20 +300,28 @@ section {
     .menu-header li a {
         font-size: 12px;
     }
+    #slider {
+      margin: 2% 2%;
+      width: 96%;
+      max-width: 100%;
+      height: 35vh;
+      max-height: 35vh;
+      position: relative;
+  }
     
     section {
-        top: 22vh;
+        top: 270px;
     }
     .section2 {
-        top: 140px;
+        top:295px;
         margin: 0 1%;
     }
     .sessao-projetos {
-        margin-bottom: 2rem;
+        margin-bottom: 5px;
     }
     .card {
-        width: 5rem;
-        height: 7rem;
+        width: 6rem;
+        height: 10rem;
     }
     .card-img-wrapper {
         width: 100%;
@@ -330,18 +338,18 @@ section {
       }
       
       .card-info h2 {
-        font-size: 10px;
+        font-size: 14px;
       }
       
       .card-info h3 {
-          font-size: 8px;
+          font-size: 9px;
         margin-bottom: 5px;
       }
       
       .card-info p {
-        width: 50%;
-        font-size: 5px;
-        margin-bottom: 2px;
+        width: 90%;
+        font-size: 10px;
+        margin-bottom: 10px;
       }
     .btn {
         font-size: 5px;
@@ -357,7 +365,7 @@ section {
       }
       footer {
         position: relative;
-        top: 20vh;
+        top: 365px;
         width: 100%;
         height: 4rem;
         background-color: rgba(124, 0, 128, 0.349);
@@ -376,7 +384,7 @@ section {
       height: 1vh;
     }
     .social-list a{
-        left: 350px;
+        left: 320px;
         top: 2vh;
         margin: 0 5px;
         font-size: 8px;  
@@ -483,7 +491,7 @@ section {
         font-size: 8px;  
     }
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:320px) {
     header  {
         height: 45vh;
         top: 0;
@@ -509,10 +517,11 @@ section {
         margin: 0 1%;
     }
     .sessao-projetos {
-        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
     }
     .card {
-        width: 5rem;
+        width: 80%;
         height: 7rem;
     }
     .card-img-wrapper {
