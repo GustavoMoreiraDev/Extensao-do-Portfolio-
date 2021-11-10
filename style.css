@@ -134,7 +134,7 @@ section {
   .card-info h3 {
     font-family: var(--font-action);
     font-weight: bolder;
-    color: #ff0051;
+    color: rgb(225, 0, 255);
     margin-bottom: 1.5rem;
   }
   
@@ -146,7 +146,7 @@ section {
     margin-bottom: 2rem;
   }
 .btn {
-    background-color: #1D2671;
+    background-color:rgb(124, 0, 128);
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
