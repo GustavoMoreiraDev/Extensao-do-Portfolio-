@@ -61,23 +61,25 @@ section {
 .menu-header {
     position: absolute;
     border-radius: 20px;
+    background: rgb(24, 23, 23);
     top: 55vh;
     left: 11%;
     height: 15vh;
-    background: rgb(24, 23, 23);
-}
-.menu-header ul li { 
-    display: inline;
 }
 .menu-header  .menu { 
     outline: none;
     margin: 2rem;
+}
+
+.menu-header ul li { 
+    display: inline;
 }
 .menu-header li a {
     font-family: var(--font-secundary);
     font-weight: 200;
     transition: .25s ease-in-out;
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .sessao-projetos {
