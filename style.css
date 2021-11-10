@@ -281,7 +281,7 @@ section {
         font-size: 1.6rem;  
     }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:424px) {
     header  {
         height: 45vh;
         top: 0;
