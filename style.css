@@ -50,7 +50,7 @@ header {
     font-weight: 200;
     transition: .25s ease-in-out;
     border-bottom: solid 2px rgb(124, 0, 128);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 #slider {
@@ -203,18 +203,22 @@ section {
         position: relative;
         color: #eee;
         width: 100%;
-        height: 25vh;
+        height: 15vh;
         top: 0;
     }
     .menu-header {
         position: absolute;
         border-radius: 20px;
         background: rgb(24, 23, 23);
-        top: 35vh;
-        left: 11%;
+        top: 42vh;
+        left: 5%;
         height: 15vh;
     }
-    .menu-header  .menu { 
+    .menu-header  .menu {
+ 
+        position: relative;
+        top: 30px; 
+        margin: 5px;
         outline: none;
         margin: 1rem;
         transition: 0.6s;
@@ -222,114 +226,38 @@ section {
     .menu-header  .menu:hover {
         color: rgb(124, 0, 128);
     }
-    
-    .menu-header ul li { 
-        display: inline;
-    }
     .menu-header li a {
-        font-family: var(--font-action);
-        font-weight: 200;
-        transition: .25s ease-in-out;
-        border-bottom: solid 2px rgb(124, 0, 128);
         font-size: 1.5rem;
-        cursor: pointer;
     }
     section {
-        position: relative;
-        background:rgb(24, 23, 23);
-        top: 46vh;
+        top: 36vh;
     }
     .section2 {
-        position: relative;
-        top: 50vh;
-        background:rgb(24, 23, 23);
-        margin: 0 1%;
-    }
-    
-    .sessao-projetos {
-        display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 2rem;
+        top: 40vh;
     }
     .card {
         width: 9rem;
         height: 12.5rem;
-        position: relative;
-    }
-    .card-img-wrapper {
-        width: 100%;
-        height: 100%;
-        background-color: #262626;
-        border-radius: 0.5rem;
-    }
-    .card-img-wrapper img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        border-radius: 0.5rem;
-        opacity: 0.8;
-        transition: opacity 0.3s;
-    }
-    .card:hover .card-img-wrapper img {
-        opacity: 0.5;
-    }
-    .card-info {
-        position: absolute;
-        bottom: 0;
-        opacity: 0;
-        visibility: hidden;
-        padding: 2rem;
-        text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
-        transition: all 0.3s;
-        cursor: default;
-      }
-      
+    }    
       .card-info h2 {
-        font-family: var(--font-primary);
-        font-size: 2rem;
-        font-weight: 500;
-        color: #eee;
+        font-size: 15px;
       }
-      
       .card-info h3 {
-        font-family: var(--font-action);
-        font-weight: bolder;
-        color: rgb(225, 0, 255);
-        margin-bottom: 1.5rem;
+        font-size: 10px;
+        margin-bottom: 5px;
       }
       
       .card-info p {
-        font-family: var(--font-secundary);
-        color: #eee;
-        font-weight: 400;
+        font-size: 7px;
         width: 80%;
-        margin-bottom: 2rem;
-      }
-    .btn {
-        background-color:rgb(124, 0, 128);
-        font-family: var(--font-action);
-        color: #eee;
-        border-radius: 0.5rem;
-        border: none;
-        cursor: pointer;
-        box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+        margin-bottom: 5px;
       }
       .card-info button {
-        width: 8rem;
-        height: 2.5rem;
-      }
-      
-      .card:hover .card-info {
-        bottom: 2rem;
-        opacity: 1;
-        visibility: visible;
+        width: 4rem;
+        height: 1.5rem;
       }
       footer {
-        position: relative;
-        top: 20vh;
-        width: 100%;
-        height: 4rem;
-        background-color: rgba(124, 0, 128, 0.349);
+        top: 420px;
     }
     .footer-content {
         position: relative;
@@ -341,12 +269,12 @@ section {
       top: 1vh;
       font-family: var(--fonte-secundaria);
       color: #a7a7a7;
-      font-size: 1.2rem;
+      font-size: 0.8rem;
       height: 1vh;
     }
     .social-list a{
         position: relative;
-        left: 500px;
+        left: 480px;
         top: 2vh;
         margin: 0 2rem; 
         color: #a7a7a7;
