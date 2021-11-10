@@ -69,13 +69,17 @@ section {
 .menu-header  .menu { 
     outline: none;
     margin: 2rem;
+    transition: 0.6s;
+}
+.menu-header  .menu:hover {
+    color: rgb(124, 0, 128);
 }
 
 .menu-header ul li { 
     display: inline;
 }
 .menu-header li a {
-    font-family: var(--font-secundary);
+    font-family: var(--font-action);
     font-weight: 200;
     transition: .25s ease-in-out;
     font-size: 2.5rem;
