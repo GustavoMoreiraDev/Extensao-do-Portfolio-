@@ -244,10 +244,11 @@ section {
       }
       
       .card-info h2 {
-        font-size: 5px;
+        font-size: 10px;
       }
       
       .card-info h3 {
+          font-size: 8px;
         margin-bottom: 5px;
       }
       
@@ -257,11 +258,12 @@ section {
         margin-bottom: 2px;
       }
     .btn {
+        font-size: 5px;
         border-radius: 0.5rem;
       }
       .card-info button {
-        width: 5px;
-        height: 5px;
+        width: 30px;
+        height: 10px;
       }
       
       .card:hover .card-info {
