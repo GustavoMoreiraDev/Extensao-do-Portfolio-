@@ -157,13 +157,12 @@ section {
   .card-info button {
     width: 8rem;
     height: 2.5rem;
-  }
-  
+} 
   .card:hover .card-info {
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
-  }
+}
   footer {
     position: relative;
     top: 20vh;
