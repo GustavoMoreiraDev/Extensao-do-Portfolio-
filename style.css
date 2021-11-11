@@ -210,12 +210,12 @@ section {
         position: absolute;
         border-radius: 20px;
         background: rgb(24, 23, 23);
-        top: 42vh;
+        top: 52vh;
         left: 5%;
         height: 15vh;
     }
     .menu-header  .menu {
- 
+
         position: relative;
         top: 30px; 
         margin: 5px;
@@ -223,37 +223,34 @@ section {
         margin: 1rem;
         transition: 0.6s;
     }
-    .menu-header  .menu:hover {
-        color: rgb(124, 0, 128);
-    }
-    .menu-header li a {
-        font-size: 1.5rem;
-    }
     section {
-        top: 36vh;
+        top: 50vh;
     }
     .section2 {
-        top: 40vh;
+        top: 50vh;
     }
     .card {
         width: 9rem;
         height: 12.5rem;
-    }    
+    }
+    .card-info {
+      padding: 8px;
+      }    
       .card-info h2 {
         font-size: 15px;
       }
       .card-info h3 {
         font-size: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
       }
       
       .card-info p {
-        font-size: 7px;
-        width: 80%;
-        margin-bottom: 5px;
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 10px;
       }
       .card-info button {
-        width: 4rem;
+        width: 5rem;
         height: 1.5rem;
       }
       footer {
@@ -269,7 +266,7 @@ section {
       top: 1vh;
       font-family: var(--fonte-secundaria);
       color: #a7a7a7;
-      font-size: 0.8rem;
+      font-size: 1rem;
       height: 1vh;
     }
     .social-list a{
@@ -334,38 +331,31 @@ section {
         border-radius: 0.5rem;
     }
     .card-info {
-        padding: 5px;
+      padding: 8px;
       }
       
-      .card-info h2 {
-        font-size: 14px;
-      }
+    .card-info h2 {
+      font-size: 1px;
+    }
       
-      .card-info h3 {
-          font-size: 9px;
-        margin-bottom: 5px;
-      }
+    .card-info h3 {
+      font-size: 10px;
+      margin-bottom: 8px;
+    }
       
-      .card-info p {
-        width: 90%;
-        font-size: 10px;
-        margin-bottom: 10px;
-      }
-    .btn {
-        font-size: 5px;
-        border-radius: 0.5rem;
-      }
-      .card-info button {
-        width: 30px;
-        height: 10px;
-      }
-      
-      .card:hover .card-info {
-        bottom: 5px;
-      }
-      footer {
+    .card-info p {
+      font-size: 7px;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    .card-info button {
+      font-size: 10px;
+      width: 4rem;
+      height: 1rem;
+    } 
+    footer {
         position: relative;
-        top: 365px;
+        top: 355px;
         width: 100%;
         height: 4rem;
         background-color: rgba(124, 0, 128, 0.349);
@@ -492,7 +482,7 @@ height: 1rem;
       top: 0;
   }
   .menu-header {
-      top: 22vh;
+      top: 29vh;
       left: 18px;
       height: 10vh;
   }
@@ -504,11 +494,11 @@ height: 1rem;
   }
   section {
     position: relative;
-    top: 25vh;
+    top: 32vh;
 }
 .section2 {
     position: relative;
-    top: 26vh;
+    top: 30vh;
     margin: 0;
 }
   .card {
@@ -541,7 +531,7 @@ height: 1rem;
   }  
     footer {
       position: absolute;
-      top: 1680px;
+      top: 1620px;
   }
   .social-list a{
     position: relative;
