@@ -196,6 +196,34 @@ section {
   display: flex;
   list-style: none;
 }
+@media screen and (max-width:1440px) {
+  
+.menu-header li a {
+    font-size: 2.5rem;
+    border-bottom: solid 4px rgb(124, 0, 128);
+}
+}
+@media screen and (max-width:1024px) {
+  footer .social-list a{
+    left: 650px; 
+}
+
+.menu-header .menu {
+  position: relative;
+  top: 30px; 
+}
+.card {
+  width: 14rem;
+  height: 22rem;
+}
+.card-info h2 {
+  font-size: 1.5rem;
+}
+.card-info p {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+}
 @media screen and (max-width:768px) {
     header { 
         position: relative;
@@ -265,8 +293,6 @@ section {
       position: absolute;
       left: 15%;
       top: 1vh;
-      font-family: var(--fonte-secundaria);
-      color: #a7a7a7;
       font-size: 1rem;
       height: 1vh;
     }
@@ -275,7 +301,6 @@ section {
         left: 480px;
         top: 2vh;
         margin: 0 2rem; 
-        color: #a7a7a7;
         font-size: 1.6rem;  
     }
 }
