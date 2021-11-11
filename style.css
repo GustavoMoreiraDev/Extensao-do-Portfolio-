@@ -250,7 +250,8 @@ section {
         margin-bottom: 10px;
       }
       .card-info button {
-        width: 5rem;
+        font-size: 10px;
+        width: 4rem;
         height: 1.5rem;
       }
       footer {
