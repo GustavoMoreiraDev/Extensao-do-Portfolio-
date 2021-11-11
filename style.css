@@ -279,7 +279,7 @@ section {
         font-size: 1.6rem;  
     }
 }
-@media screen and (max-width:454px) {
+@media screen and (max-width:425px) {
     header  {
         max-height: 2vh;
         top: 0;
