@@ -299,7 +299,7 @@ footer .social-list a{
         font-size: 1.3rem;  
     }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
     header  {
         max-height: 2vh;
         top: 0;
