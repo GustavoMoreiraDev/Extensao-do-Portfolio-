@@ -9,11 +9,26 @@
     <link rel="manifest" href="imagens/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="/OverlayScrollbars.min.css">
     <title>portfolio 2</title>
 </head>
 <body>
         <div class="container">
+
+            <style>
+                .custom-class > .os-scrollbar {
+                   padding: 0 0 0 2px;
+                   }
+                   .custom-class > .os-scrollbar > .os-scrollbar-track {
+                   border: 0;
+                   background-color: rgba(53, 50, 50, 0.24) !important;
+                   }
+                   .custom-class > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
+                   border-radius: 0;
+                   background-color: rgba(124, 0, 128, 0.74)!important;
+                   }
+               </style>
+
             <header id="home">
                 <div id="slider">
                     <img class="selected" src="./imagens/proj1.jpg" alt="projeto 1">
@@ -149,5 +164,17 @@
             </footer>
         </div>
         <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/jquery.overlayScrollbars.min.js"></script>
+        <script>(function ($){
+        "use strict";
+        $('body').overlayScrollbars({
+            className: "os-theme-dark custom-class",
+            scrollbars: {
+            clickscolling: true
+        }
+        })
+        })(jQuery)
+        </script>
 </body>
 </html>
